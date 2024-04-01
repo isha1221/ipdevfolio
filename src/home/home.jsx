@@ -143,7 +143,7 @@ const HomePage = () => {
             <Board_name />
           </motion.div>
         </Grid>
-        <Grid item xs={12} sm={6} paddingTop={'250px'}>
+        <Grid item container xs={12} sm={6} paddingTop={'250px'}  justifyContent={'center'}>
           <motion.div
             initial={{ x: "0%" }}
             whileInView={{ x: "calc(10vw - 35%)" }}
