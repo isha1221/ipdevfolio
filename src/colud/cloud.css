@@ -1,0 +1,90 @@
+
+.cloud {
+    animation: move 6s ease infinite;
+    border-radius: 50%;
+    position: relative;
+    /* top: 50%; */
+    left: 70%;
+    /* margin-top: 100px; */
+    /* margin-left: 60px; */
+    background: #7ddcef;
+    height: 60px;
+    width: 60px;
+    box-shadow: 
+      65px -15px 0 -5px #7ddcef, 
+      25px -25px 0 0 #7ddcef, 
+      30px 10px 0 0 #7ddcef, 
+      60px 15px 0 -10px #7ddcef, 
+      85px 5px 0 -5px #7ddcef;
+  }
+  
+  
+  
+  /* .circle-1 {
+    transform: rotate(-75deg);
+    position: absolute;
+    bottom: -15px;
+    left: -45px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #7ddcef;
+  }
+  
+  .circle-2 {
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: -15px;
+    left: -20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #7ddcef;
+  } */
+  
+  /* @keyframes move {
+    50% {
+      transform: translateY(-15px);
+    }
+  } */
+  .cloud {
+    position: relative;
+    margin-top: 60px;
+    left: 70%;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .circle {
+    position: absolute;
+    bottom: -15px;
+    background-color: #7ddcef;
+    border-radius: 50%;
+  }
+  
+  .circle-1 {
+    left: -45px;
+    width: 15px;
+    height: 15px;
+    animation: circleAppear 2s ease infinite;
+  }
+  
+  .circle-2 {
+    left: -20px;
+    width: 30px;
+    height: 30px;
+    animation: circleAppear 2s ease infinite 1s; /* Delay the start by 1s */
+  }
+  
+  /* @keyframes circleAppear {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  } */
+  

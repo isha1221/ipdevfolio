@@ -1,0 +1,24 @@
+.time_big {
+    display: block; /* Display by default */
+  }
+  
+  .time_sm {
+    display: none; /* Hide by default */
+  }
+  
+  @media (max-width: 768px) {
+    .time_big {
+      display: none; /* Hide on small screens */
+    }
+  
+    .time_sm {
+      display: block; /* Display on small screens */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .time_sm {
+      display: none; /* Hide on larger screens */
+    }
+  }
+  

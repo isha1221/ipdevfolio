@@ -1,0 +1,27 @@
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10%;
+    padding-top: 40%;
+  }
+  
+  .timeline-box {
+    width: 100%;
+    background-image: url('../image/wood3.png');
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .timeline-box:hover {
+    cursor: pointer;
+  }
+  
+  .timeline-box h3 {
+    margin-bottom: 10px;
+  }
+  

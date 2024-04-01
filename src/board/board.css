@@ -1,0 +1,82 @@
+.main{
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+
+.right_rop::before {
+    content: "";
+    position: absolute;
+    /* top: 50%; */
+    background: repeating-linear-gradient( 30deg,#885f33 49%, #583f21 50%,#56310e 51%); /* color of the rope */
+    width: 8px; 
+ 
+    height: 85%;
+    padding-top: 100px; 
+    /* height of the rope */
+}
+
+.left_rop::before {
+    content: "";
+    position: absolute;
+    /* top: 50%; */
+    background: repeating-linear-gradient( 30deg,#885f33 49%, #583f21 50%,#56310e 51%); /* color of the rope */
+    width: 8px; 
+    /* width of the rope */
+    height: 90%;
+    padding-top: 100px;
+     /* height of the rope */
+}
+
+/* .left_rop::after {
+    left: 10%;
+}
+
+.right_rop::after {
+    right: 50%;
+} */
+
+
+.board1 {
+    display: inline-block;
+    padding: 60px;
+    /* min-width: 200px; */
+    border-radius: 20px;
+    position: relative;
+    background-image: url('../image/wood2.png'); /* Adjust the path as needed */
+    background-size: cover;
+    /* color: white; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.board2 {
+    display: inline-block;
+    padding: 60px;
+    margin: 30px;
+    
+    /* min-width: 200px; */
+    border-radius: 20px;
+    position: relative;
+    background-image: url('../image/wood2.png'); /* Adjust the path as needed */
+    background-size: cover;
+    /* color: white; */
+    text-align: center;
+}
+
+.board3 {
+    display: inline-block;
+    padding: 60px;
+    margin: 15px;
+    
+    /* min-width: 200px; */
+    border-radius: 20px;
+    position: relative;
+    background-image: url('../image/wood2.png'); /* Adjust the path as needed */
+    background-size: cover;
+    /* color: white; */
+    text-align: center;
+}
+
+

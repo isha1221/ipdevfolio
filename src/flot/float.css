@@ -1,0 +1,67 @@
+.floating-square-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.floating-square {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  
+  /* From https://css.glass */
+  background: rgba(213, 254, 255, 0.53);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgba(213, 254, 255, 0.3);
+animation: float 3s ease-in-out infinite; 
+/* margin: 20px; */
+/* Safari support */
+
+}
+
+.floating-square.up {
+  animation-name: float-up;
+}
+
+.text {
+  color: black;
+  font-size: larger;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-weight:bolder;
+  align-self: center;
+  align-items: center; /* Set the text color to white */
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-square.down {
+  animation-name: float-down;
+}
+
+@keyframes float-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

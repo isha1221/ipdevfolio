@@ -1,0 +1,153 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+.about_main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 80px;
+  padding-bottom: 15%;
+  background-color: transparent;
+ 
+} */
+
+/*  */
+/* 
+h1 ,p{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  display: flex;
+  justify-content: center;
+
+} */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.about-card {
+  width: 100%;
+  padding: 20px;
+  background-color:transparent;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  /* From https://css.glass */
+  background: rgba(213, 254, 255, 0.53);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(213, 254, 255, 0.3);
+  margin: 10%; 
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.split-card {
+  width: 90%; /* Adjust as needed */
+  margin: 10px 0;
+  padding: 20px;
+  background: rgba(213, 254, 255, 0.53);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-image: url('../image/wood2.png'); /* Replace 'wooden_texture.jpg' with the path to your wooden image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Add a slight shadow to make text more readable */
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Darken the background slightly on hover */
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .about-card {
+    width: 90%;
+  }
+
+  .split-card {
+    width: 100%;
+  }
+}
+
+
+/* .about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.about-card {
+  width: 100%;
+  padding: 20px;
+  background-color:transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: rgba(170, 218, 229, 0.79);
+  border-radius: 16px;
+  
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
+  border: 1px solid rgba(93, 212, 216, 0.36);
+  margin: 10%; 
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.split-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ */

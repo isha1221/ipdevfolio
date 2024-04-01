@@ -1,0 +1,137 @@
+.container_my-5{
+  /* background: rgb(2,36,43);
+background: linear-gradient(171deg, rgba(2,36,43,1) 0%, rgba(3,121,133,1) 0%, rgba(6,141,167,1) 0%, rgba(6,141,167,1) 1%, rgba(245,245,245,1) 92%); */
+background-color: transparent;
+
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-info,
+  .social-links {
+    flex: 1;
+  }
+  
+  .contact-info h3,
+  .social-links h3 {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #00bcd4;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make the background circular */
+    margin: 0 10px; /* Add margin to space out the icons */
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    
+  
+  }
+  
+  section {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    
+    overflow: hidden;
+    padding: 80px;
+   
+  }
+  
+  section .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../image/wave.png);
+    background-size: 1000px 100px;
+  }
+  
+  section .wave.wave1 {
+    animation: animate 10s linear infinite; /* Adjusted animation duration to 10s */
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  
+  @keyframes animate {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px; /* Adjusted background position */
+    }
+  }
+  
+  section .wave.wave2 {
+    animation: animate2 2s linear infinite; /* Adjusted animation duration to 2s */
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -2s;
+    bottom: 10px;
+  }
+  
+  @keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1000px; /* Adjusted background position */
+    }
+  }
+  
+  section .wave.wave3 {
+    animation: animate2 5s linear infinite; /* Adjusted animation duration to 5s */
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -1s;
+    bottom: 15px;
+  }
+  
+  section .wave.wave4 {
+    animation: animate2 5s linear infinite; /* Adjusted animation duration to 5s */
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -3s;
+    bottom: 20px;
+  }
+  
+  
+  
