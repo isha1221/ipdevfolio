@@ -98,7 +98,7 @@ const AboutPage = () => {
               transition={{ type: 'spring', stiffness: 120, damping: 15 }} // Animation type and properties
             >
               <h2 style={{padding:'2%'}}>Education</h2>
-              <p style={{padding:'2%'}}>I hold a BTech degree in [Your Major] from Vishwakarma Institute of Technology, Pune. During my academic journey, I've garnered numerous achievements, including publications in prestigious journals. My academic background has provided me with a strong foundation and a thirst for knowledge in the field of software development</p>
+              <p style={{padding:'2%'}}>I hold a BTech degree from Vishwakarma Institute of Technology, Pune. During my academic journey, I've garnered numerous achievements, including publications in prestigious journals. My academic background has provided me with a strong foundation and a thirst for knowledge in the field of software development</p>
             </motion.div>
             <button onClick={handleBackButtonClick}>Go Back</button>
           </>
